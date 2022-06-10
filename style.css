@@ -1,0 +1,139 @@
+/*Navigation bar style*/
+.nav-bar{
+    background-color: green;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow: hidden;
+    
+ 
+}
+
+.nav-bar >div{
+    overflow: hidden;
+}
+
+
+.nav-bar >div >p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: white;
+    margin-left: 1rem;
+
+}
+
+.nav-bar >div >p >a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    color: white;
+    padding: 3px 3px;
+  
+}
+
+.nav-bar >div >p >a:hover{
+background-color: black;
+color: yellow;
+
+}
+
+/*------------------------------------Nivigation bar end here-----------------------------------------------------*/
+
+/*Our covid 19 image style*/
+.body-text >img{
+    width: 100%;
+}
+
+
+.body-text{
+padding: 1rem;
+}
+
+/*Footer style*/
+
+.foot{
+    background-color:green;
+    padding: 1px 1px;
+}
+
+.foot >p{
+    color: white;
+    font-size:1.6rem;
+    text-align: center;
+}
+
+/*covid 19 video*/
+iframe{
+    width:20rem;
+    height:15rem;
+    float: right;
+    position: relative;
+    margin-buttom: 8rem;
+}
+
+
+/*--------------------------------Tip page style---------------------------------------*/
+
+.body-text2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+}
+
+.body-text2 >h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+/*table image style*/
+.table{
+    padding: 1rem 1rem;
+    
+}
+
+.table >img{
+    width: 100%;
+}
+
+/*--------------------------------Get in touch (form)---------------------------------------*/
+/*Form heading style*/
+h3{
+    font-size: 1.5rem;
+
+}
+
+/*This div contain our entire form*/
+.holder{
+    text-align: center;
+
+}
+
+/*This div is found with in the holder div. it contain the form element*/
+.holder >div{
+    background-color: #3b8d72;
+    width: 40rem;
+    border-radius: 1rem;
+    margin-left: 20rem;
+}
+
+/*The form front size style*/
+form{
+    font-size: 1.3rem;
+}
+
+/*Our button style*/
+.submit{
+    background-color: green;
+}
+
+button{
+    background-color: green;
+    border: 1px solid green;
+    font-size: 1.5rem;
+    color: white;
+}
+
+button:hover{
+    background-color: yellow;
+    color:black;
+}
