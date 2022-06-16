@@ -1,139 +1,156 @@
-/*Navigation bar style*/
+body{
+    background-color: rgb(220, 218, 215);
+}
+
+/*Navigation link style*/
 .nav-bar{
-    background-color: green;
+    background-color: gold;
+    border-bottom: 4px solid black;
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.nav-bar >a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding: 10px 10px;
+}
+
+.nav-bar >a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Banner Image Section*/
+
+.banner-image >img{
+    width: 100%;
+    
+}
+
+marquee{
+    font-size: 4rem;
+    color:rgb(255, 153, 43);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Our weekly activities heading style*/
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/*Flex boxes under our banner images*/
+
+.week-activities{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+/*This div contain our round div and our test that show our activities*/
+.week-activities >div{
+    width: 20rem;
+    height: 22rem;
     overflow: hidden;
-    
- 
-}
-
-.nav-bar >div{
-    overflow: hidden;
-}
-
-
-.nav-bar >div >p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    color: white;
-    margin-left: 1rem;
-
-}
-
-.nav-bar >div >p >a{
-    text-decoration: none;
-    font-size: 1.3rem;
-    margin-right: 1rem;
-    color: white;
-    padding: 3px 3px;
-  
-}
-
-.nav-bar >div >p >a:hover{
-background-color: black;
-color: yellow;
-
-}
-
-/*------------------------------------Nivigation bar end here-----------------------------------------------------*/
-
-/*Our covid 19 image style*/
-.body-text >img{
-    width: 100%;
-}
-
-
-.body-text{
-padding: 1rem;
-}
-
-/*Footer style*/
-
-.foot{
-    background-color:green;
-    padding: 1px 1px;
-}
-
-.foot >p{
-    color: white;
-    font-size:1.6rem;
-    text-align: center;
-}
-
-/*covid 19 video*/
-iframe{
-    width:20rem;
-    height:15rem;
-    float: right;
-    position: relative;
-    margin-buttom: 8rem;
-}
-
-
-/*--------------------------------Tip page style---------------------------------------*/
-
-.body-text2{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.3rem;
-    padding: 1rem 1rem;
-}
-
-.body-text2 >h4{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.8rem;
-}
-
-/*table image style*/
-.table{
-    padding: 1rem 1rem;
+    background-color: gold;
+    padding: 4px 4px;
     
 }
 
-.table >img{
-    width: 100%;
+/*This is our round image at the top style*/
+.week-activities .image-up{
+    width: 20rem;
+    height: 10.5rem;
+    background-color: blue;   
 }
 
-/*--------------------------------Get in touch (form)---------------------------------------*/
-/*Form heading style*/
+/*This is our round image style at our div top*/
+.week-activities .image-up>img{
+    height:10.5rem;
+    width: 20rem;
+}
 h3{
-    font-size: 1.5rem;
-
-}
-
-/*This div contain our entire form*/
-.holder{
     text-align: center;
+    font-size: 2rem;
+    color: rgb(5, 5, 2);
+}
+.week-activities >div >p{
+    text-align: center;
+    color: rgb(10, 4, 4);
+}
+
+/*Our crusede banner style*/
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.crusade-banner >img{
+    width: 100%;
+    margin-top: 1rem;
+    height: 30rem;
+    
+}
+
+/*Testimony from people who attended our past crusade*/
+.test{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 
 }
 
-/*This div is found with in the holder div. it contain the form element*/
-.holder >div{
-    background-color: #3b8d72;
-    width: 40rem;
-    border-radius: 1rem;
-    margin-left: 20rem;
+.test >div{
+
+    width: 20rem;
+    height: 22rem;
+    overflow: hidden;
+    padding: 4px 4px;
 }
 
-/*The form front size style*/
-form{
-    font-size: 1.3rem;
+
+/*Our testimony video code*/
+
+.test >div >p{
+    text-align: center;
 }
 
-/*Our button style*/
-.submit{
-    background-color: green;
+/*Footer*/
+
+footer .footer{
+    width: 100%;
+    height: 12rem;
+    background-color: black;
 }
 
-button{
-    background-color: green;
-    border: 1px solid green;
-    font-size: 1.5rem;
-    color: white;
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
 }
 
-button:hover{
-    background-color: yellow;
-    color:black;
+.footer >div{
+    width: 20rem;
+    height: 11rem;
+    margin-top:0.5rem;
+}
+
+.footer >div >img{
+    width: 7em;
+    height: 7rem;
+    margin-top: 2rem;
+}
+
+.footer >div >a:hover{
+    zoom:50%;
 }
