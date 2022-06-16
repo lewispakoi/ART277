@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(220, 218, 215);
+}
+
+/*Navigation link style*/
+.nav-bar{
+    background-color: gold;
+    border-bottom: 4px solid black;
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.nav-bar >a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding: 10px 10px;
+}
+
+.nav-bar >a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Banner Image Section*/
+
+.banner-image >img{
+    width: 100%;
+    
+}
+
+marquee{
+    font-size: 4rem;
+    color:rgb(255, 153, 43);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Our weekly activities heading style*/
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/*Flex boxes under our banner images*/
+
+.week-activities{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/*This div contain our round div and our test that show our activities*/
+.week-activities >div{
+    width: 20rem;
+    height: 22rem;
+    overflow: hidden;
+    background-color: gold;
+    padding: 4px 4px;
+    
+}
+
+/*This is our round image at the top style*/
+.week-activities .image-up{
+    width: 20rem;
+    height: 10.5rem;
+    background-color: blue;   
+}
+
+/*This is our round image style at our div top*/
+.week-activities .image-up>img{
+    height:10.5rem;
+    width: 20rem;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(5, 5, 2);
+}
+.week-activities >div >p{
+    text-align: center;
+    color: rgb(10, 4, 4);
+}
+
+/*Our crusede banner style*/
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.crusade-banner >img{
+    width: 100%;
+    margin-top: 1rem;
+    height: 30rem;
+    
+}
+
+/*Testimony from people who attended our past crusade*/
+.test{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+.test >div{
+
+    width: 20rem;
+    height: 22rem;
+    overflow: hidden;
+    padding: 4px 4px;
+}
+
+
+/*Our testimony video code*/
+
+.test >div >p{
+    text-align: center;
+}
+
+/*Footer*/
+
+footer .footer{
+    width: 100%;
+    height: 12rem;
+    background-color: black;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+.footer >div{
+    width: 20rem;
+    height: 11rem;
+    margin-top:0.5rem;
+}
+
+.footer >div >img{
+    width: 7em;
+    height: 7rem;
+    margin-top: 2rem;
+}
+
+.footer >div >a:hover{
+    zoom:50%;
+}
